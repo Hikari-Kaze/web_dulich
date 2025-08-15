@@ -1,3 +1,61 @@
+
+.templatemo_top{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.logo1{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.logo1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo2{
+    width: 50%;
+}
+.logo2 img{
+    padding-top: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu{
+    width: 113px;
+}
+/* ****************** index ****************** */
+.templatemo_reasonbg{
+    margin-top: 80px;
+}
+
+.pay_attention{
+    width: 1266.4px;
+    margin: 70px auto 30px auto;
+    background-color: rgb(179, 255, 179);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid green;
+}
+.pay_attention p{
+    color: rgb(33, 118, 25);
+    padding: 8px 15px;
+    margin: 0px;
+}
+
 .container1{
     margin-right: 120px;
     margin-left: 120px;
@@ -19,9 +77,10 @@
 }
 
 .border{
-    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 10px;
     overflow: hidden;
+    margin: 14px 0px;
 }
 
 .square_coner1{
@@ -30,20 +89,64 @@
     overflow: hidden;
 }
 
-.name{margin: 30px 15px 0px 15px; width: auto; height: 80px;}
+.name{margin: 15px 15px 0px 15px; width: auto; height: 80px;}
 .name p {
     font-weight: bold;
     font-size: 20px;
     color: black;
 }
-.price{margin: 35px 15px 0px 15px;}
+.price{margin: 15px 15px 0px 15px;}
 .price p {
     margin: 0%;
     font-size: 15px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.test1{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.test1 p{
+    margin: 0px;
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+    background-color: #84c658;
+    border-color: #5ea32e;
+    color: #fff;
+    padding: 6px 12px;
+    display: inline-block;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.test1 p:hover{
+    background-color: #72b842;
+    color: #fff;
+}
+
 /* ****************** menu ****************** */
+.path_menu{
+    width: 1266.4px;
+    margin: 70px auto 15px auto;
+    background-color: rgb(179, 255, 179);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.path_menu p{
+    color: rgb(33, 118, 25);
+    padding: 8px 15px;
+    margin: 0px;
+}
+
 .head{
     text-align: center;
     padding-bottom: 30px;
@@ -55,6 +158,9 @@
     margin: 10px 150px;
 }
 .product{
+
+}
+.img_name{
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -149,13 +255,20 @@
 }
 
 .detail .green1{
+    margin-top: 30px;
     color: green;
+    font-weight: bold;
+}
+
+.detail .header_detail{
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .detail p{
-    font-size: 25px;
+    font-size: 20px;
     color: black;
-    font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 .center{
     justify-content: center;
@@ -190,9 +303,8 @@
     display: flex;
     justify-content: center;
     width: 800px;
-    height: 400px;
-    border: 1px solid black;
-    margin: 0 auto;
+    height: 500px;
+    margin: 40px auto;
 }
 
 .text p{
@@ -213,15 +325,29 @@
 }
 
 /* ****************** footer ****************** */
-
+.display_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .templatemo_footer{
-    background-color: rgb(229, 254, 229);
+    background-color: rgb(250, 250, 250);
+    color: rgb(250, 250, 250);
 }
 
-.image_footer{
-    border: 1px solid black;
-    width: 50%;
-    height: 40px;
+.image_footer {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.image_footer a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.black{
     color: black;
 }
 
@@ -232,4 +358,91 @@
 
 .templatemo_lightgrey{
     padding: 70px 0px 0px 0px;
+}
+
+.ul_footer{
+    color: black;
+}
+
+/* ****************** time ****************** */
+table{
+    border: none;
+    font-family: Arial, sans-serif;
+    width: 897px;
+}
+
+th, td {
+  border: none; 
+  border-bottom: 1px solid #b5b4b4; 
+  padding: 6px 10px;
+}
+
+th{
+    font-weight: bold;
+    color: black;
+    font-style: initial;
+    font-size: 20px;
+}
+
+td{
+    color: rgb(51, 51, 51);
+}
+
+/* ****************** contact ****************** */
+
+.half{
+    width: 50%;
+}
+.half{
+    width: 50%;
+}
+
+.margin_contact{
+    margin: 50px 0px 0px 0px;
+}
+
+.text_contact{
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info span {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    display: block;                
+    position: relative;        
+    padding-left: 15px;        
+    margin-bottom: 5px;
+    color: black;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.contact-info span::before {
+    content: "•";              
+    position: absolute;
+    left: 0;          
+    font-size: 18px;
+    line-height: 1;
+}
+
+.form_contact{
+    font-weight: bold;
+}
+
+.button_contact{
+    margin-top: 15px;
+}
+
+.button_contact button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.margin_bottom{
+    margin-bottom: 100px;
 }
