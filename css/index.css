@@ -377,6 +377,7 @@
 }
 
 .h2_footer{
+    display: flex;
     font-weight: bold;
     color: green;
 }
