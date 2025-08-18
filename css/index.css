@@ -609,8 +609,13 @@ td{
     border-radius: 10px;
 }
 
-.name_sp{margin: 15px 15px 0px 15px; width: auto; height: auto;}
+.name_sp{
+    margin: 15px 15px 0px 15px; 
+    width: auto; 
+    height: auto;
+}
 .name_sp p {
+    height: 60px;
     font-weight: bold;
     font-size: 20px;
     color: black;
